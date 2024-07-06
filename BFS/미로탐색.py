@@ -34,3 +34,6 @@ for i in range(n):
 
 bfs(0,0)
 print(distance[n-1][m-1])
+
+# 이 문제는 bfs 기초적인 감을 찾기 위해서 푼 문제
+# 아주 기초적인 좌표형 bfs 문제이다.
