@@ -47,3 +47,7 @@ for i in range(t):
 
 for i in range(len(resultList)):
     print(resultList[i])
+
+# 이 문제는 아주 기초적인 방식으로 접근하면 되고 좌표형 bfs, 뭉탱이 찾기(?) 문제이다. 
+# 그저 2차원 배열에 원소 하나하나씩 bfs 를 반복하는데 이미 방문한 노드라면 넘어가는 방식
+# 그냥 할만 했던 것 같다.
