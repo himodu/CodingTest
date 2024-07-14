@@ -27,3 +27,6 @@ for i in range(n):
 
 for i in range(n):
     print(*result[i])
+
+# 이 문제는 DFS를 익히기 위해 푼 문제
+# DFS라고 해서 굳이 재귀를 쓸 필요가 없고, 솔직히 BFS랑 비교했을 때 큰 차이가 없다는 걸 느낌
