@@ -26,3 +26,6 @@ for i in range(1,n+1):
         result += 1
 
 print(result)
+
+# 이 문제는 DFS 를 좀 더 이해하기 위한 문제
+# 이거도 마찬가지로 BFS랑 차이를 모르겠다.
