@@ -12,7 +12,6 @@ for i in range(2, n+1):
     if dp[i//3] != -1 and i%3==0:
         if min > dp[i//3]:
             min = dp[i // 3]
-
     if min > dp[i-1]:
         min = dp[i-1]
 
