@@ -8,16 +8,15 @@ result = 0
 def search(find, index):
     start = 0
     end = n-1
-
     while start < end:
-        if start == index:
-            start += 1
-            continue
-        if end == index:
-            end -= 1
-            continue
         cand = data[start] + data[end]
         if cand == find:
+            if start == index:
+                start += 1
+                continue
+            if end == index:
+                end -= 1
+                continue
             return True
         if cand > find:
             end -= 1
