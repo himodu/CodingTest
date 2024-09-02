@@ -13,16 +13,18 @@ def search():
     sum = 0
     min_length = 1e9
 
-    while start<=end:
+    while start <= end:
+
         if sum >= s:
             min_length = min(min_length, end-start)
             sum -= list[start]
             start += 1
-        elif end==n:
-            break
         else:
+            if end == n:
+                break
             sum += list[end]
             end += 1
+
     return min_length
 
 if sum < s:
